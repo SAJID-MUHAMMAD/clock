@@ -1,0 +1,65 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.hand {
+    position: absolute;
+    background-color: #fff;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+}
+
+.hour {
+    width: 6px;
+    height: 50px;
+}
+
+.minute {
+    width: 4px;
+    height: 70px;
+}
+
+.second {
+    width: 2px;
+    height: 90px;
+    background-color: red;
+} */
+
+/* =====ANALOG CLOCK END========== */
+
+
+/* =====DIGITAL CLOCK START========== */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    color: #fff;
+    font-size: 60px;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
